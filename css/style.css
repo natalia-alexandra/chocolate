@@ -1,6 +1,5 @@
 nav {
-    background: linear-gradient(to left, #f2efe2 40%, #c37e58 50%);
-    padding: 0.5rem 1rem 0 1rem;
+    padding: 0.3rem 1rem 0 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -13,13 +12,13 @@ nav {
 .first-part {
     width: 55vw;
     padding: 1rem;
-    color: rgb(255, 253, 240);
+    color: #fffdf0;
     background: #c37e58;
     background: linear-gradient(191deg, rgba(195, 126, 88,1) 0%, rgba(195, 126, 88,1) 13%, rgb(43, 28, 4) 100%);
 }
 
 .description {
-    width: 30vw;
+    width: 32vw;
     margin-top: 18vh;
     padding-left: 5rem;
     align-self: center;
@@ -50,10 +49,11 @@ p {
 
 .ingr-desc {
     font-size: 0.7em;
+    color: #9e6643;
 }
 
 .ingredients-img {
-    margin-top: 23vh;
+    margin-top: 20vh;
     margin-left: 5rem;
     display: flex;
     flex-direction: column;
