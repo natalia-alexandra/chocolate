@@ -156,3 +156,13 @@ button:hover {
     transition: all 0.3s ease-in;
     transition-delay: 0.25s;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #ebddce;
+    background: #c37e58;
+    background: linear-gradient(191deg, rgba(195, 126, 88,1) 0%, rgba(195, 126, 88,1) 13%, rgb(43, 28, 4) 100%);
+}
