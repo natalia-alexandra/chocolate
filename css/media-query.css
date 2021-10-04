@@ -1,0 +1,55 @@
+@media only screen and (max-width: 655px) {
+    /* general */
+    .header-title {
+        left: 43.5vw;
+    }
+    /* home */
+    .first-part {
+        width: 65vw;
+    }
+    h1 {
+        color: rgba(255, 253, 240, 0.829);
+        text-shadow: -3px -2px 5px #4f3418;
+    }
+    .description {
+        padding-left: 0.5rem;
+    }
+
+    .second-part {
+        width: 35vw;
+        margin-left: auto;
+    }
+    .ingredients-img {
+        margin-top: 26vh;
+        margin-left: 0;
+    }
+
+    /* construction site */
+    .construction-container {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-back {
+        top: 1rem;
+        align-self: center;
+    }
+    .construction-img {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .header-title {
+        left: 37.5vw;
+    }
+    /* home */
+    .hero-img-box {
+        left: 24vw;
+        top: 11vh;
+        width: 59vw;
+    }
+    .description {
+        width: auto;
+    }
+}
