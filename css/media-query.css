@@ -2,8 +2,12 @@
     /* general */
     .header-title {
         left: 43.5vw;
+        margin-left: 0;
     }
     /* home */
+    .main {
+        height: auto;
+    }
     .first-part {
         width: 65vw;
     }
